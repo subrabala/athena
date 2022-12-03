@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/athena/static/css/main.c0a57931.css",
-    "main.js": "/athena/static/js/main.138f578d.js",
+    "main.js": "/athena/static/js/main.18b97838.js",
     "static/js/787.c591fbbb.chunk.js": "/athena/static/js/787.c591fbbb.chunk.js",
     "static/media/spectrum-gradient.png": "/athena/static/media/spectrum-gradient.f9d642d8516e1cbc2dbf.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/athena/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -15,11 +15,11 @@
     "static/media/AeonikProTRIAL-Regular.otf": "/athena/static/media/AeonikProTRIAL-Regular.eb9920f48eee6c7d8679.otf",
     "index.html": "/athena/index.html",
     "main.c0a57931.css.map": "/athena/static/css/main.c0a57931.css.map",
-    "main.138f578d.js.map": "/athena/static/js/main.138f578d.js.map",
+    "main.18b97838.js.map": "/athena/static/js/main.18b97838.js.map",
     "787.c591fbbb.chunk.js.map": "/athena/static/js/787.c591fbbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0a57931.css",
-    "static/js/main.138f578d.js"
+    "static/js/main.18b97838.js"
   ]
 }
