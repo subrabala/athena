@@ -20,7 +20,7 @@ const MainPage=()=>{
             <Col lg={11}>
                 <Card>
                     <Card.heading>
-
+                        
                     </Card.heading>
                 </Card>
                 

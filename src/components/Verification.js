@@ -17,14 +17,21 @@ const Verification = () => {
           lg={5}
           className="d-flex align-items-center justify-content-center"
         >
-          <div className="glass col">
+          <div className="glass">
+            <div style={{paddingBottom:"20px"}}>
+              Authentification
+            </div>
+            <div>
+            World ID is a way to anonymously verify someone is an actual person performing an action, and that they have performed that action only once (without revealing anything about themselves)
+            </div>
+          <WorldIDWidget actionId="123" signal="123"/>
           <div id="world-id-container"></div>
           <div className="captcha"></div>
           </div>
           </Col>      
           <Col lg={7} className="d-flex  justify-content-center">
           <img src={Circle} alt="MyCircle" className="circle" />
-        <WorldIDWidget actionId="123" signal="123"/>
+        
         </Col>
       </Row>
       
