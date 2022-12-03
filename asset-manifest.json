@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/athena/static/css/main.c0a57931.css",
+    "main.js": "/athena/static/js/main.138f578d.js",
+    "static/js/787.c591fbbb.chunk.js": "/athena/static/js/787.c591fbbb.chunk.js",
+    "static/media/spectrum-gradient.png": "/athena/static/media/spectrum-gradient.f9d642d8516e1cbc2dbf.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/athena/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/athena/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/athena/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/HelveticaNowDisplay-Bold.ttf": "/athena/static/media/HelveticaNowDisplay-Bold.0604348678aea33011f3.ttf",
+    "static/media/Ellipse 1.png": "/athena/static/media/Ellipse 1.ea305f86efa73fb36036.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/athena/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/athena/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/CircularStd-Book.otf": "/athena/static/media/CircularStd-Book.9048137056e4347dbbd5.otf",
+    "static/media/AeonikProTRIAL-Regular.otf": "/athena/static/media/AeonikProTRIAL-Regular.eb9920f48eee6c7d8679.otf",
+    "index.html": "/athena/index.html",
+    "main.c0a57931.css.map": "/athena/static/css/main.c0a57931.css.map",
+    "main.138f578d.js.map": "/athena/static/js/main.138f578d.js.map",
+    "787.c591fbbb.chunk.js.map": "/athena/static/js/787.c591fbbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0a57931.css",
+    "static/js/main.138f578d.js"
+  ]
+}
