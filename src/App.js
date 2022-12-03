@@ -1,5 +1,4 @@
 import './App.css';
-import Firstpage from "./components/Firstpage";
 import Login from './components/Login';
 import Accounts from './components/Accounts';
 import Verification  from './components/Verification';

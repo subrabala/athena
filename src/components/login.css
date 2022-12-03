@@ -18,6 +18,17 @@ body {
     padding-left: 40px;
     font-family: 'Poppins', sans-serif;
 }
+.login1{
+    height: 100vh;
+    width: auto;
+    background-image: url(spectrum-gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
 
 .title{
     font-size: 1.7rem;

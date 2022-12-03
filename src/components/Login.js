@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 import "./login.css";
 
-import Circle from "../assets/Logo.gif";
+import Circle from "../assets/Ellipse 1.png";
 import { useState } from "react";
 
 const Login = () => {
