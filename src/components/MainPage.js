@@ -3,16 +3,16 @@ import { Card, Col,Row } from "reactstrap";
 import { Link } from "react-router-dom";
 import "./mainpage.css";
 import Arrow from  "../assets/right-arrow-w.png";
-import user from "../assets/user.png";
-import  time from "../assets/time-past.png";
-import usdcircle from "../assets/usd-circle.png";
-import histogram from "../assets/chart-histogram.png";
-import commentquestion from "../assets/comment-question.png";
-import moneybill from "../assets/money-bill-wave.png";
-import badgecheck from "../assets/badge-check.png";
-import ethereum from "../assets/ethereum.png";
-import rate from "../assets/interest-rate.png"
-import righta from "../assets/right-a.png";
+import User from "../assets/user.png";
+import  Time from "../assets/time-past.png";
+import Usdcircle from "../assets/usd-circle.png";
+import Histogram from "../assets/chart-histogram.png";
+import Commentquestion from "../assets/comment-question.png";
+import Moneybill from "../assets/money-bill-wave.png";
+import Badgecheck from "../assets/badge-check.png";
+import Ethereum from "../assets/ethereum.png";
+import Rate from "../assets/interest-rate.png"
+import Righta from "../assets/right-a.png";
 
 const MainPage=()=>{
 
@@ -22,14 +22,14 @@ const MainPage=()=>{
 
 <div className="res-body">
 
-    <img src={righta} className="right-a"/>
+    <img src={Righta} className="right-a"/>
 
-    <a href="#"> <img src={histogram} className="financial"/></a>
-    <img src={time} className="history"/>
-    <img src={usdcircle} className="dollar"/>
-    <img src={commentquestion} className="liability"/>
-    <img src={moneybill} className="loans"/>
-    <img src={badgecheck} className="verify"/>
+    <a href="#"> <img src={Histogram} className="financial"/></a>
+    <img src={Time} className="history"/>
+    <img src={Usdcircle} className="dollar"/>
+    <img src={Commentquestion} className="liability"/>
+    <img src={Moneybill} className="loans"/>
+    <img src={Badgecheck} className="verify"/>
 
 </div>
 
@@ -47,13 +47,13 @@ const MainPage=()=>{
 
         </ul>
 
-        <img src={user} className="user"/>
+        <img src={User} className="user"/>
 
     </nav>
 <div className="analyst-cont">
         <div className="card">
             <div className="heading">
-                <img src={rate} className="dashboard-img"/>
+                <img src={Rate} className="dashboard-img"/>
                 <h1 className="borrow-txt">Borrower</h1>
 
             </div>
@@ -64,15 +64,15 @@ const MainPage=()=>{
             <div className="collateral">
                 Collateral
             </div>
-            <div className="but"> <button className="the-button"> <img src={ethereum}
+            <div className="but"> <button className="the-button"> <img src={Ethereum}
                         className="eth-lend"/></button></div>
                         <a href="#" className="find-lenderers" style={{color:"#0a0a0a"}}>
-                        <img src={righta} className="right-arrow"/></a>
+                        <img src={Righta} className="right-arrow"/></a>
 
         </div>
         <div className="card">
             <div className="heading">
-                <img src={rate} className="dashboard-img"/>
+                <img src={Rate} className="dashboard-img"/>
                 <h1 className="borrow-txt">Lender</h1>
 
             </div>
@@ -91,7 +91,7 @@ const MainPage=()=>{
                                
                         </div>
                         <Link to="/ChatBot" className="find-lenderers" style={{color:"#0a0a0a"}}>
-                            <img src={righta} className="right-arrow-lender"/></Link>
+                            <img src={Righta} className="right-arrow-lender"/></Link>
 
         </div>
 

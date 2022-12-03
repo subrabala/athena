@@ -11,6 +11,7 @@ import {
   Row,
 } from "reactstrap";
 import "./login.css";
+import gif from "../assets/eth.gif"
 
 import Circle from "../assets/Ellipse 1.png";
 import { useState } from "react";
@@ -116,7 +117,7 @@ const Login = () => {
             </Form>
           </div>
         </Col>
-
+        <img src={gif} alt="giff" className="gifff" style={{position:"absolute",right:"-12%", width:"800px",top:"0"}}/>
         <Col lg={8} className="d-flex  justify-content-center">
           <img src={Circle} alt="MyCircle" className="circle" />
         </Col>
