@@ -4,7 +4,6 @@ import Accounts from './components/Accounts';
 import Verification  from './components/Verification';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainPage from './components/MainPage';
-
 import OnBoard from './components/OnBoard';
 import { useLoader, useFrame } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
@@ -13,7 +12,7 @@ function App() {
   console.log("app page");
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/athena'>
     <Routes>
     <Route path="/" element={<Accounts/>}></Route>
     <Route path="/login" element={<Login/>} ></Route> 

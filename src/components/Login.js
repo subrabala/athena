@@ -107,9 +107,11 @@ const Login = () => {
               </FormGroup>
 
               <FormGroup row>
+                <Link to="/mainpage">
                 <Button className="signinbut" block={true}>
                   Sign In
                 </Button>
+                </Link>
               </FormGroup>
             </Form>
           </div>
