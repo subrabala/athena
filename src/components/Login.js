@@ -117,9 +117,10 @@ const Login = () => {
             </Form>
           </div>
         </Col>
-        <img src={gif} alt="giff" className="gifff" style={{position:"absolute",right:"-12%", width:"800px",top:"0"}}/>
-        <Col lg={8} className="d-flex  justify-content-center">
+        
+        <Col lg={8} className="d-none d-lg-flex justify-content-center">
           <img src={Circle} alt="MyCircle" className="circle" />
+          <img src={gif} alt="giff" className="gifff" style={{position:"absolute", width:"65%",top:"5%"}}/>
         </Col>
       </Row>
 

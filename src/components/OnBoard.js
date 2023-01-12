@@ -13,6 +13,7 @@ import {
 import "./login.css";
 import Circle from "../assets/Ellipse 1.png";
 import { useState } from "react";
+import gif from "../assets/eth.gif"
 
 const OnBoard = () => {
   const [data,setData]=useState({
@@ -41,7 +42,7 @@ const OnBoard = () => {
   }
   return (
     <Container className="login" fluid={true}>
-      <Row>
+      <Row className="d-flex">
         <Col
           lg={5}
           className="d-flex align-items-center justify-content-center"
@@ -138,17 +139,18 @@ const OnBoard = () => {
           </div>
         </Col>
 
-        <Col lg={7} className="d-flex  justify-content-center">
-          <img src={Circle} alt="MyCircle" className="circle" />
+        <Col lg={8} className="d-none d-lg-flex  align-items-center justify-content-center">
+          <img src={gif} alt="giff" className="gifff" style={{position:"absolute", width:"65%", top:"10%",right:"0"}}/>
         </Col>
       </Row>
 
       <Row>
-        <Col lg={5} className="d-flex  justify-content-center">
+        <Col lg={5} className="d-flex align-items-center justify-content-center">
       <span
         className="signup"
         style={{
           fontSize: "0.7rem",
+          paddingTop:"10px",
         }}
       >
         Terms and Conditions
